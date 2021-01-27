@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap');
+
+body {
+  background-color: white;
+  font-family: lora;
+  color: #575F7D;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.img-circle {
+  width: 50px;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: white 1px solid;
+}
+
+h1 {
+  font-size: 32px;
+  font-family:  roboto;
+  color: #635BFF;
+  padding-bottom: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: roboto;
+  color: #635BFF
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #575F7D;
+
+}
+
+a:hover {
+  color: black;
+}
+
+.card-white {
+  padding: 30px;
+  margin: 20px;
+  border: 1px solid lightgrey;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+i  {
+  font-size: 40px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.btn-ghost {
+  color: #575F7D;
+  border: 1px solid #575F7D;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.btn-ghost:hover {
+  opacity: 1;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
